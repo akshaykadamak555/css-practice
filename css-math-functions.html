@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #div1 {
+        position: absolute;
+        left: 50px;
+        width: calc(100% - 200px);
+        border: 1px solid black;
+        background-color: yellow;
+        padding: 5px;
+      }
+      .math-fun {
+        margin-top: 10rem;
+      }
+      #div2 {
+        top: 50px;
+        background-color: yellow;
+        height: 100px;
+        width: max(50%, 400px);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The calc() Function</h1>
+
+    <p>
+      Create a div that stretches across the window, with a 50px gap between
+      both sides of the div and the edges of the window:
+    </p>
+
+    <div id="div1">Some text...</div>
+
+    <h1 class="math-fun">The max() Function</h1>
+    <div id="div2">Some text...</div>
+  </body>
+</html>
